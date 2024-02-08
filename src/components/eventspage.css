@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Passero+One&display=swap');
+
+
+.headingDay{
+    font-family: 'Road Rage', sans-serif;
+    font-family: Road Rage;
+font-size: 100px;
+font-weight: 400;   
+text-align: center;
+background: linear-gradient(180deg, rgba(245, 245, 245, 0.74) 0%, rgba(245, 245, 245, 0.592) 53.5%, rgba(245, 245, 245, 0.4366) 100%);
+background-clip: text;
+-webkit-background-clip: text; 
+color: transparent;
+text-shadow: 27px 4px 17.299999237060547px 0px #241717;
+}
+
+.headingTech{
+    font-family: 'Passero One', sans-serif;
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 49.5%, rgba(255, 255, 255, 0.11) 100%);
+-webkit-background-clip: text; 
+color: transparent;
+text-shadow: 27px 4px 17.299999237060547px 0px #241717;
+margin-bottom: 50px;
+}
+
+.eventListDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+
+@media only screen and (max-width:1000px) {
+    .headingDay{
+        font-size: 75px;
+    }
+    .headingTech{
+        font-size: 40px;
+    }
+    .eventListDiv{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media only screen and (max-width:660px) {
+    .headingDay{
+        font-size: 50px;
+    }
+    .headingTech{
+        font-size: 30px;
+    }
+    .eventListDiv{
+        grid-template-columns: 1fr;
+    }
+    
+}

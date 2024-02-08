@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    overflow-x: hidden;
+}
+.imgiContainer{
+    margin-top: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:30px;
+    padding: 0px 30px;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+
+.sist{
+    max-width: 300px;
+    min-width: 200px;
+    flex: 1;
+}
+
+.acm{
+    max-width: 100px;
+    min-width: 80px;
+    flex: 2;
+}
+
+.acmm{
+    max-width: 80px;
+    min-width: 50px;
+}
+.copyLine{
+    margin: 20px 0px;
+    width: 96%;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.copyRightContent{
+    
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+padding-bottom: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .sist{
+        min-width: 300px;
+    }
+    .acm{
+        min-width: 100px;
+    }
+    .acmm{
+        min-width: 80px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .copyRightContent{
+        font-size: 14px;
+        text-align: justify;
+        padding: 0px 12px;
+    }
+    .copyLine{
+        width: 93%;
+    }
+}
+
+
+
+
+

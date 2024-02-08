@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.094bd959.css",
+    "main.js": "/static/js/main.868d8d66.js",
+    "static/media/finalhorizon.gif": "/static/media/finalhorizon.de39b418956259aa3eb4.gif",
+    "static/media/homebg.png": "/static/media/homebg.21658d3bd8508ad85005.png",
+    "static/media/sistLogo2.png": "/static/media/sistLogo2.ded0c9dc80b19f0b1a7c.png",
+    "static/media/acmLogo.png": "/static/media/acmLogo.67a69797d4e75793a04e.png",
+    "static/media/sistLogo.png": "/static/media/sistLogo.49c74f66f11b6f77b353.png",
+    "static/media/OpenSansHebrewCondensed-ExtraBold.ttf": "/static/media/OpenSansHebrewCondensed-ExtraBold.ad54a97d3fcd5a98f03d.ttf",
+    "static/media/event1.jpg": "/static/media/event1.c09cddb6897ba8db67be.jpg",
+    "index.html": "/index.html",
+    "main.094bd959.css.map": "/static/css/main.094bd959.css.map",
+    "main.868d8d66.js.map": "/static/js/main.868d8d66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094bd959.css",
+    "static/js/main.868d8d66.js"
+  ]
+}

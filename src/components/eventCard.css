@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&family=Mina&display=swap');
+
+@font-face{
+    font-family: eventName;
+    src:url(../font/OpenSansHebrewCondensed-ExtraBold.ttf)
+}
+
+@font-face{
+    font-family: eventDesc;
+    src:url(../font/OpenSansHebrewCondensed-Bold.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.eventDiv{
+    min-width: 280px;
+    max-width: 400px;
+    
+}
+
+.eventImage img{
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+
+.eventDetails{
+    background: #00000082;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    padding: 20px;
+    padding-top: 10px;
+}
+.eventName{
+    font-family: eventName;
+font-size: 24px;
+font-weight: 100;
+text-align: left;
+
+background: linear-gradient(180deg, #F0D3FF 0%, #AAAEF2 57.67%);
+background-clip: text;
+-webkit-background-clip: text; 
+color: transparent;
+text-shadow: 9px 4px 10px  rgba(0,0,0,0.4);
+}
+
+.eventTime,.eventDescription,.eventVenue{
+    font-family: eventDesc;
+    letter-spacing: 1.5px;
+font-size: 15px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.eventDescription{
+    margin-top: 8px;
+}
+.eventRegisterButton{
+    margin-top: 10px;
+}
+.eventRegisterButton,.eventViewMoreButton{
+    text-align: right;
+}
+.eventRegisterButton button,.eventViewMoreButton button{
+    border: none;
+    outline: none;
+    font-family: eventName;
+font-size: 25px;
+background: linear-gradient(180deg, #EAEAEA 0%, rgba(245, 245, 245, 0.56) 49%, rgba(255, 255, 255, 0.22) 100%);
+background-clip: text;
+-webkit-background-clip: text; 
+color: transparent;
+padding: 0px;
+}
+.eventViewMoreButton button{
+    font-size: 20px;
+}
+.nonTechHead{
+    margin-top: 40px;
+}
+

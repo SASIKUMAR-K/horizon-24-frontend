@@ -1,0 +1,143 @@
+
+
+.event-name{
+    background: linear-gradient(180deg, #F0D3FF 0%, #AAAEF2 57.67%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+      background-clip: text;
+    
+  }
+  
+  .form-container {
+    width: 70vw; /* Set width to 100% of viewport width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Set text color to white */
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .form-group input {
+    flex: 3;
+    padding: 8px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: white; /* Set text color to white for input */
+    background-color: transparent;
+  }
+  
+  .form-group input[type='file'] {
+    padding: 5px;
+    width: auto;
+  }
+  
+  button {
+    width: 25%;
+    padding: 10px;
+    background: linear-gradient(93.58deg, #501496 0%, #722BAE 38.06%, #9432CF 71.91%, #C648F4 104.22%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    /* background-color: #0056b3; */
+    background: linear-gradient(93.58deg, #1a191c 0%, #53465e 38.06%, #966bb0 71.91%, #d68ff0 104.22%);
+  
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .submit-button {
+    text-align: center;
+  }
+  
+  .submit-button button {
+    display: inline-block;
+  }
+  .qr-div{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .qr-code{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+  }
+  
+  /* End of Pop out */
+  
+  
+  
+  /* modal  */
+  
+  .background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px); /* Apply blur effect only to the background */
+    z-index: 998; /* Ensure the blurred background is behind the modal */
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the modal is on top of other content */
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    position: relative;
+    flex-grow: 1; /* Allow the form container to grow to fill available space */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Road+Rage&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url(../img/homebg.png);
+  font-family: 'Mina', sans-serif;
+  width:100%;
+  background-position: top;
+
+}
+
+/* Navbar */
+nav{
+  padding: 30px;
+  padding-right: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   color: white;
+   background-color: black;
+   text-shadow: 3px 5px 7.300000190734863px #C648F4;
+   font-size: 25px;
+   font-family: 'Mina',sans-serif;
+}
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  background: #fff;
+}
+.left{
+   display: flex;
+   align-items: center;
+   gap:40px;
+}
+.navLinks{
+  display: flex;
+  gap: 40px;
+}
+.logoDes{
+   padding: 4px;
+   background-color: white;
+   border-radius: 50%;
+   height: 45px;
+}
+.logoDes img{
+   height: 40px;
+}
+
+.acmLogoDes{
+   background: transparent;
+}
+.acmLogoDes img{
+   height: 40px;
+}
+
+.logoLine{
+   width: 4px;
+   border: 3px solid white;
+   height: 40px;
+   border-radius: 4px;
+}
+
+
+.right{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+/* Navbar Ends */
+/* Horizon gif */
+.horizon-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.horizon-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.centerText{
+  margin: 40px 0px;
+  text-align: center;
+  font-family: 'Mina';
+  background: linear-gradient(180deg, #8800FF 0%, #1DD2EB 17.67%, #5B1A93 90.17%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+}
+.blueContainer{
+  background: linear-gradient(105.79deg, #1E0143 22.68%, #1D0157 58.42%, #1E0082 97.25%);
+  padding-bottom: 50px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+/* End of horizon gif */
+
+/* Remaining Days */
+
+.date{
+  font-family: 'Mina';
+  background: linear-gradient(#8800FF, #5B1A93);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.remainingDays{
+  display: flex;
+  font-family: 'Mina', sans-serif;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.remainingDays>div{
+  width: 125px;
+  background: linear-gradient(#1D0271,#200247);
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+.remainingDays>div .data{
+  font-family: Lateef;
+  padding: 25px 0px;
+font-size: 128px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+}
+.remainingDays>div .text{
+  font-size: 25px;
+  
+}
+
+/* End of remaining days */
+
+/* Day Events */
+
+.registerNow{
+  padding: 8px 50px;
+  background: linear-gradient(to right, #501496 0%, #722BAE 25%, #9432CF 50%, #C648F4 75%);
+  color:white;
+  font-family: 'Mate', serif !important;
+  font-size: 35px;
+  border-radius: 16px;
+  border: none;
+  margin: 50px 0px;
+}
+

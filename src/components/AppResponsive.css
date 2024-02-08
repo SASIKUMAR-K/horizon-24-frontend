@@ -1,0 +1,77 @@
+@media only screen and (max-width:800px){
+
+      nav{
+        padding: 20px;
+        font-size: 20px;
+      }
+      .left{
+         gap:30px;
+      }
+      .navLinks{
+        gap: 30px;
+      }
+      .logoDes{
+         padding: 2px;
+         height: 40px;
+      }
+      .logoDes img{
+         height: 35px;
+      }
+      
+      .acmLogoDes img{
+         height: 35px;
+      }
+      
+      .logoLine{
+         width: 3px;
+         height: 35px;
+      }   
+      .right{
+         gap: 7px;
+      }
+
+      .centerText{
+        margin: 30px 0px;
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .blueContainer{
+        padding-bottom: 20px;
+        padding-top: 0px;
+      }
+      
+      /* End of horizon gif */
+      
+      /* Remaining Days */
+      
+      .remainingDays{
+        gap: 10px;
+        padding-bottom: 20px;
+      }
+      .remainingDays>div{
+        width: 80px;
+        padding: 5px 0px;
+        border-radius: 7px;
+      }
+      .remainingDays>div .data{
+       
+        padding: 14px 0px;
+      font-size: 65px;
+      font-weight: 300;
+      }
+      .remainingDays>div .text{
+        font-size: 14px;
+      }
+      
+      /* End of remaining days */
+      
+      /* Day Events */
+      
+      .registerNow{
+        padding:5px 50px ;
+        font-size: 20px;
+        border-radius: 13px;
+        margin: 35px 0px;
+        
+      }
+}
