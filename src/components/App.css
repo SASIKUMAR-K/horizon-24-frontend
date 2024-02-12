@@ -16,68 +16,7 @@ body{
 
 }
 
-/* Navbar */
-nav{
-  padding: 30px;
-  padding-right: 10px;
-   display: flex;
-   justify-content: space-between;
-   align-items: baseline;
-   color: white;
-   background-color: black;
-   text-shadow: 3px 5px 7.300000190734863px #C648F4;
-   font-size: 25px;
-   font-family: 'Mina',sans-serif;
-}
-.hamburger {
-  cursor: pointer;
-  display: none;
-}
-.hamburger div {
-  width: 30px;
-  height: 3px;
-  margin: 5px 0;
-  background: #fff;
-}
-.left{
-   display: flex;
-   align-items: center;
-   gap:40px;
-}
-.navLinks{
-  display: flex;
-  gap: 40px;
-}
-.logoDes{
-   padding: 4px;
-   background-color: white;
-   border-radius: 50%;
-   height: 45px;
-}
-.logoDes img{
-   height: 40px;
-}
 
-.acmLogoDes{
-   background: transparent;
-}
-.acmLogoDes img{
-   height: 40px;
-}
-
-.logoLine{
-   width: 4px;
-   border: 3px solid white;
-   height: 40px;
-   border-radius: 4px;
-}
-
-
-.right{
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
 
 /* Navbar Ends */
 /* Horizon gif */
@@ -173,4 +112,6 @@ text-align: center;
   border: none;
   margin: 50px 0px;
 }
+
+
 

@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './popup.css'
 
-const Popup = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+const Popup = (props) => {
 
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-  };
   const [formData, setFormData] = useState({
     name: '',
     reg_no: '',
@@ -15,7 +10,7 @@ const Popup = () => {
     section: '',
     // team: '',
     screenshot_id: null,
-    event_id:'65c05d69624163a7644ec2e7',
+    event_id:props.eventId,
     email:'',
     year:'',
     transaction_id:'',
@@ -63,14 +58,13 @@ const Popup = () => {
 
   return (
     <div>
-     <div className="eventRegisterButton"><button onClick={toggleModal}>Register Now !!</button></div>
-      {isModalOpen && (
+      <button onClick={toggleModal}>Register</button>
         <div className="modal-overlay">
         <div className="background-blur" onClick={toggleModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             
         <div className="form-container">
-        <button className="close-button" onClick={toggleModal}>Close</button>
+        <button className="close-button" onClick={toggleModal}></button>
       <h2 className="event-name">EVENT NAME</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -167,7 +161,7 @@ const Popup = () => {
             required
           />
         </div>
-        <div className="form-group">
+        <div className="form-group chose-file">
           <label>UPLOAD HERE</label>
           <input
             type="file"
@@ -185,7 +179,6 @@ const Popup = () => {
     </div>
     </div>
     </div>
-      )}
     </div>
   );
 };

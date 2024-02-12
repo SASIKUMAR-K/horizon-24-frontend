@@ -4,6 +4,7 @@ import EventCard from "./eventCard";
 import CopyRights from "./copyRights";
 import eventImage from '../img/event1.jpg'
 import './eventspage.css'
+
 function EventsPage(){
     return(
         <div> 
@@ -43,6 +44,7 @@ function EventsPage(){
         <EventCard eventImage={eventImage} eventName="CODE FEST" eventTime="10Am" eventVenue="1st Floor" eventDesc="hii all welcomehii all welcomehii all welcomehii all welcomehii all welcome"></EventCard>
         </div>
         <CopyRights></CopyRights>
+
 
         </div>
     );
